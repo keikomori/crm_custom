@@ -47,3 +47,9 @@ msgstr "Própria"
 #: selection:crm.lead,lobby_type:0
 msgid "Outsourced"
 msgstr "Terceirizada"
+
+#. module: crm_custom
+#: model:ir.actions.act_window,name:crm_custom.action_report_custom_crm
+#: model:ir.ui.menu,name:crm_custom.menu_crm_custom
+msgid "Report CRM Custom"
+msgstr "Relatório CRM Customizado"
