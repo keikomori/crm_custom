@@ -1,0 +1,49 @@
+#. module: crm_custom
+#: model:ir.model.fields,field_description:crm_custom.field_crm_lead__num_unit
+#: model:ir.model.fields,field_description:pt_crm.field_crm_lead__num_unit
+msgid "Number of units"
+msgstr "Quantidade de unidades"
+
+#. module: crm_custom
+#: model:ir.model.fields,field_description:crm_custom.field_crm_lead__num_blocks
+#: model:ir.model.fields,field_description:crm_custom.field_crm_lead__num_blocks
+msgid "Number of blocks"
+msgstr "Quantidade de blocos"
+
+#. module: crm_custom
+#: model:ir.model.fields,field_description:crm_custom.field_crm_lead__num_residents
+#: model:ir.model.fields,field_description:crm_custom.field_crm_lead__num_residents
+msgid "Number of residents"
+msgstr "Quantidade de moradores"
+
+#. module: crm_custom
+#: model:ir.model.fields,field_description:crm_custom.field_crm_lead__lobby_type
+#: model:ir.model.fields,field_description:crm_custom.field_crm_lead__lobby_type
+msgid "Lobby type"
+msgstr "Tipo de Portaria"
+
+#. module: crm_custom
+#: model:ir.model.fields,field_description:crm_custom.field_crm_lead__lobby_schedule
+#: model:ir.model.fields,field_description:crm_custom.field_crm_lead__lobby_schedule
+msgid "Lobby schedule"
+msgstr "Horário de entrada"
+
+#. module: crm_custom
+#: selection:crm.lead,lobby_schedule:0
+msgid "12 hours"
+msgstr "12 horas"
+
+#. module: crm_custom
+#: selection:crm.lead,lobby_schedule:0
+msgid "24 hours"
+msgstr "24 horas"
+
+#. module: crm_custom
+#: selection:crm.lead,lobby_type:0
+msgid "Own"
+msgstr "Própria"
+
+#. module: crm_custom
+#: selection:crm.lead,lobby_type:0
+msgid "Outsourced"
+msgstr "Terceirizada"

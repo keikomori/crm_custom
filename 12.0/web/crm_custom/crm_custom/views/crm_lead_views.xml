@@ -6,9 +6,9 @@
         <field name="inherit_id" ref="crm.quick_create_opportunity_form"/>
         <field name="arch" type="xml">
             <xpath expr="//form/group/field[@name='planned_revenue']" position="after">
-                <field name="num_unit" widget="integer"/>
-                <field name="num_blocks" widget="integer"/>
-                <field name="num_residents" widget="integer"/>
+                <field name="num_unit"/>
+                <field name="num_blocks"/>
+                <field name="num_residents"/>
                 <field name="lobby_type"/>
                 <field name="lobby_schedule"/>
             </xpath>
@@ -20,9 +20,9 @@
         <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
         <field name="arch" type="xml">
             <xpath expr="//form/sheet/group[1]/group[1]/field[@name='phone']" position="after">
-                <field name="num_unit" widget="integer"/>
-                <field name="num_blocks" widget="integer"/>
-                <field name="num_residents" widget="integer"/>
+                <field name="num_unit"/>
+                <field name="num_blocks"/>
+                <field name="num_residents"/>
                 <field name="lobby_type"/>
                 <field name="lobby_schedule"/>
             </xpath>
