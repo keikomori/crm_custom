@@ -1,4 +1,31 @@
 <?xml version="1.0"?>
 <odoo>
-
+    <!-- Quick create - KANBAN -->
+    <record id="crm_custom_case_kanban_view_leads" model="ir.ui.view">
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.quick_create_opportunity_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form/group/field[@name='planned_revenue']" position="after">
+                <field name="num_unit" widget="integer"/>
+                <field name="num_blocks" widget="integer"/>
+                <field name="num_residents" widget="integer"/>
+                <field name="lobby_type"/>
+                <field name="lobby_schedule"/>
+            </xpath>
+        </field>
+    </record>
+    <!-- Form create - FROM -->
+    <record id="crm_custom_case_form_view_oppor" model="ir.ui.view">
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form/sheet/group[1]/group[1]/field[@name='phone']" position="after">
+                <field name="num_unit" widget="integer"/>
+                <field name="num_blocks" widget="integer"/>
+                <field name="num_residents" widget="integer"/>
+                <field name="lobby_type"/>
+                <field name="lobby_schedule"/>
+            </xpath>
+        </field>
+    </record>
 </odoo>
