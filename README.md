@@ -2,7 +2,7 @@
 <h1 align="center"> Módulo CRM customizado </h1>
 <h6 align="center">by Keiko</h6>
 
-CRM Custom é uma melhoria para o módulo de CRM do framework Odoo. Neste módulo foram adicionados novos campos para cadastramento das informações relativas aos clientes potenciais de uma empresa fantasia que vende produtos para condominios.
+CRM Custom é uma melhoria para o módulo de CRM do Odoo. Neste módulo foram adicionados novos campos para cadastramento das informações relativas aos clientes potenciais de uma empresa fantasia que vende produtos para condominios.
 
 ----------
 
