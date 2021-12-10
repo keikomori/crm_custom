@@ -15,7 +15,7 @@ Atributos adicionais:
    - Tipo de portaria (Própria ou terceirizada);
    - Horário da portaria(24 horas ou 12 horas).
  
- Relatório: Constando nome do cliente e os dados de qualificação, também conta o atributos adicionais inseridos.
+ Relatório: Constando nome do cliente e os dados de qualificação, também conta os atributos adicionais inseridos.
  
  ----------
  
@@ -61,7 +61,7 @@ Lembrando que deve ser definido o caminho do `Script path` e `Parameters` nas co
 4. Lá nas configurações `Parameters`:
 
     ```
-    -c {caminho até essa pasta}/12.0/.odoorc -d {nome do banco} -u -u custom_crm
+    -c {caminho até essa pasta}/12.0/.odoorc -d {nome do banco} -u custom_crm
     ```
 
 5. Lá nas configurações `Script path`:
